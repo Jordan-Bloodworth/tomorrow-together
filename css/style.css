@@ -1,0 +1,18 @@
+@font-face {
+	font-family: "Backwoods-Cabin";
+	src: url("../fonts/Backwoods-Cabin.otf");
+}
+
+@font-face {
+	font-family: "ProdaSans-Regular";
+	src: url("../fonts/ProdaSans-Regular.otf");
+}
+
+@font-face {
+	font-family: "ProdaSans-Bold";
+	src: url("../fonts/ProdaSans-Bold.otf");
+}
+
+body {
+	background-color: black;
+}
