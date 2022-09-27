@@ -131,7 +131,7 @@
 
     <!-- RESOURCES START -->
     <div
-      class="resources h-[1000px] bg-[url(/images/resources-background.png)] bg-cover"
+      class="resources h-[1000px] bg-[url(./images/resources-background.png)] bg-cover"
     >
       <img
         class="flex ml-auto mr-auto mt-[125px] xl:mt-[300px] w-8 xl:w-32"
@@ -157,8 +157,57 @@
           </h1>
         </div>
       </div>
+      <div
+        class="grid grid-cols-2 bg-white ml-auto mr-auto p-4 xl:p-10 mt-16 h-[75px] w-[300px] xl:h-[150px] xl:w-[750px]"
+      >
+        <div class="align-middle">
+          <h1 class="font-prodaBold xl:text-5xl">Crisis Text Line</h1>
+          <p class="text-xs xl:text-lg">Available 24/7, For Free</p>
+        </div>
+        <div>
+          <p class="text-right text-xs xl:pr-12">Text</p>
+          <h1 class="font-prodaBold text-md xl:text-5xl text-right mt-auto">
+            TALK
+          </h1>
+          <p class="text-right text-xs xl:pr-6">To 741-741</p>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-2 bg-white ml-auto mr-auto p-4 xl:p-10 mt-16 h-[75px] w-[300px] xl:h-[150px] xl:w-[750px]"
+      >
+        <div class="align-middle">
+          <h1 class="font-prodaBold xl:text-5xl">Resources</h1>
+          <p class="text-xs xl:text-lg">Find the Help You Need</p>
+        </div>
+        <div class="justify-self-end">
+          <button
+            class="bg-black font-proda text-white text-xs xl:text-lg p-2 xl:p-4"
+          >
+            Find Reources
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="nav.js"></script>
   </body>
+
+  <footer class="flex p-8 xl:p-16">
+    <img
+      class="object-contain w-16 xl:w-32"
+      src="./images/logo-white.png"
+      alt=""
+    />
+    <img class="object-contain w-8 pl-4" src="./images/divider.png" alt="" />
+    <img
+      class="object-contain w-16 xl:w-32 pl-4"
+      src="./images/afsp-logo.png"
+      alt=""
+    />
+    <p
+      class="flex ml-auto mt-auto ml-auto text-white text-[8px] xl:text-base text-right font-proda"
+    >
+      ©2022 Tomorrow, Together Foundation. All Rights Reserved.
+    </p>
+  </footer>
 </html>
